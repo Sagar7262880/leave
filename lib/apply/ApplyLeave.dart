@@ -13,7 +13,9 @@ class _ApplyleaveState extends State<Applyleave> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.yellow,
-      body: Center(child: Text("Apply Leave"),),
+      body: Center(
+        child: Text("Apply Leave hear"),
+      ),
     );
   }
 }
