@@ -30,7 +30,7 @@ class _ApplyleaveState extends State<Applyleave> {
       // backgroundColor: Colors.white.withOpacity(.9),
       appBar: AppBar(
         title: const Text(
-          "Apply Leave",
+          "Apply Leave application",
           style: TextStyle(
             color: Colors.white,
           ),
@@ -64,7 +64,8 @@ class _ApplyleaveState extends State<Applyleave> {
                           Text(
                             "APPLY LEAVE",
                             style: TextStyle(
-                                color: Colors.grey, fontWeight: FontWeight.w800),
+                                color: Colors.grey,
+                                fontWeight: FontWeight.w800),
                           ),
                         ],
                       ),
@@ -82,7 +83,8 @@ class _ApplyleaveState extends State<Applyleave> {
                       const SizedBox(
                         height: 12,
                       ),
-                      DatePickerField(label: "From Date", controller: fromDateCtr),
+                      DatePickerField(
+                          label: "From Date", controller: fromDateCtr),
                       const SizedBox(
                         height: 12,
                       ),
@@ -90,7 +92,6 @@ class _ApplyleaveState extends State<Applyleave> {
                       const SizedBox(
                         height: 12,
                       ),
-            
                       SimpleDropdown(
                           labelText: "Select CC",
                           items: const [
