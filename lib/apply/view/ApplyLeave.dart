@@ -25,7 +25,7 @@ class _ApplyleaveState extends State<Applyleave> {
   Widget build(BuildContext context) {
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      
+
       backgroundColor: Theme.of(context).primaryColor,
       // backgroundColor: Colors.white.withOpacity(.9),
       appBar: AppBar(
@@ -87,7 +87,7 @@ class _ApplyleaveState extends State<Applyleave> {
                 const SizedBox(
                   height: 12,
                 ),
-          
+
                 SimpleDropdown(
                     labelText: "Select CC",
                     items: const [
