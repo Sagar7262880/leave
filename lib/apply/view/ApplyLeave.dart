@@ -84,7 +84,6 @@ class _ApplyleaveState extends State<Applyleave> {
               const SizedBox(
                 height: 12,
               ),
-
               SimpleDropdown(
                   labelText: "Select CC",
                   items: const [
@@ -109,7 +108,13 @@ class _ApplyleaveState extends State<Applyleave> {
                 height: 12,
               ),
               ElevatedButton(
-                onPressed: () {},
+                onPressed: () {
+                  showSuccessBottomSheet(
+                    context,
+                    "Successfully",
+                    "Great It's working..!",
+                  );
+                },
                 child: const Text("Apply Leave"),
               )
             ],
